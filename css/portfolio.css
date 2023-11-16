@@ -25,6 +25,12 @@ h1, h2, h3, h5, h6, p, a {
 
 .navbar-brand{
     color: var(--text-color);
+    font-weight: 500;
+}
+
+.navbar-brand:hover{
+    color: var(--main-color);
+    transition: all 0.4s ease 0s;
 }
 
 #navbarNav{
