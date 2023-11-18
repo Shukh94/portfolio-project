@@ -240,3 +240,15 @@ a {
 .yoga-app .project-img{
   width: 500px;
 }
+
+.yoga-app .project-description a {
+  border: 1px solid var(--main-color);
+  color: var(--bg-color);
+  background: var(--main-color);
+}
+
+.yoga-app .project-description a:hover {
+  color: var(--main-color);
+  background: transparent;
+  transition: 0.2s linear;
+}
