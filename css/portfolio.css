@@ -97,6 +97,7 @@ a {
 .home-section {
   min-height: 100vh;
   padding: 90px 9% 32px;
+  background: var(--second-bg-color);
 }
 
 .home {
