@@ -277,3 +277,36 @@ footer {
   z-index: 1;
   overflow: hidden;
 }
+
+.about-description {
+  width: 600px;
+}
+
+.about-description a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 200px;
+  height: 100%;
+  background: var(--main-color);
+  border: 2px solid var(--main-color);
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--bg-color);
+  cursor: pointer;
+  transition: 0.5s;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.about-img img{
+  width: 500px;
+  background: var(--second-bg-color);
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+}
+
