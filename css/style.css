@@ -187,5 +187,22 @@
     border: 2px solid rgb(83, 3, 114);
   }
 
+  @media (max-width: 572px) {
+    h1 {
+      font-size: 90%;
+      line-height: 1.5;
+    }
+  
+    h2 {
+      font-size: 80%;
+    }
+  
+    h3 {
+      font-size: 26px;
+    }
+    a {
+      font-size: 80%;
+    }
+  }
 
 
