@@ -142,11 +142,33 @@
     text-decoration: underline;
   }
 
+
+  footer{
+    background: var(--secondary-color);
+  }
+
+  .contact-box h3{
+    font-size: 40px;
+    color: var(--text-color);
+  }
+
   .social-links{
     width: 100px;
     display: flex;
     justify-content: space-between;
     margin: auto;
+  }
+
+  .social-links a{
+    border: solid var(--primary-color);
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: var(--primary-color);
+  }
+  .social-links a:hover{
+    color: rgb(83, 3, 114);
   }
 
 
