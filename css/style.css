@@ -105,6 +105,12 @@
     transition: .3s linear;
   }
 
+  .btn-branding:hover{
+    border: 1px solid var(--primary-color);
+    background: transparent;
+    color: var(--primary-color);
+  }
+
   .btn-branding-outline{
     border-radius: 4px;
     padding: 20px 15px;
@@ -114,6 +120,12 @@
     box-shadow: var(--box-shadow);
     color: white;
     transition: .3s linear;
+  }
+
+  .btn-branding-outline:hover{
+    border: 1px solid var(--primary-color);
+    background: transparent;
+    color: var(--primary-color);
   }
 
   img {
@@ -247,6 +259,13 @@
       padding: 15px 10px;
     }
     .secondary-link {
+      padding: 15px 10px;
+    }
+
+    .btn-branding{
+      padding: 15px 10px;
+    }
+    .btn-branding-outline{
       padding: 15px 10px;
     }
     .works-description {
